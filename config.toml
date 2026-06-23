@@ -1,15 +1,14 @@
-# The URL the site will be built for
-theme = "duckquill"
 
+theme = "duckquill"
+author = "Davi Almeida"
 title="Davi Almeida"
 base_url = "https://eletronbius.github.io/"
 
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+taxonomies = [{ name = "tags", feed = true }]
 [search]
 index_format = "fuse_json"
 
