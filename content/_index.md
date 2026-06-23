@@ -20,4 +20,3 @@ title = "Home"
 
 # Davi Almeida
 
-Welcome
