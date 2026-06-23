@@ -1,0 +1,37 @@
+# The URL the site will be built for
+theme = "duckquill"
+
+title="Davi Almeida"
+base_url = "https://eletronbius.github.io/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[search]
+index_format = "fuse_json"
+
+[extra]
+# Put all your custom variables here
+emoji_favicon = "🧙‍♂️"
+accent_color = "#ff7800"
+accent_color_dark = "#ffa348"
+
+
+[extra.nav]
+links = [
+	{ url = "@/About/_index.md", name = "About" },
+	{ url = "@/Projects/_index.md", name = "Projects" },
+    #{ url = "tags", name = "Tags" }
+]
+
+[extra.footer]
+show_copyright = true
+show_powered_by = true
+links = [
+	{ name = "GitHub",   url = "https://github.com/Eletronbius" },
+    { name = "LinkedIn", url = "https://www.linkedin.com/in/davialp" },
+	{ name = "CV",       url = "static/cv.pdf" },
+]
