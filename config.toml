@@ -32,5 +32,5 @@ show_powered_by = true
 links = [
 	{ name = "GitHub",   url = "https://github.com/Eletronbius" },
     { name = "LinkedIn", url = "https://www.linkedin.com/in/davialp" },
-	{ name = "CV",       url = "static/cv.pdf" },
+	{ name = "CV",       url = "cv.pdf" },
 ]
