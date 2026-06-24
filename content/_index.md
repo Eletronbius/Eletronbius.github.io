@@ -20,8 +20,8 @@ title = "Home"
 
 # Davi Almeida
 
-<q>"Imagine se eu tivesse um teclado"</q>
+<q>Imagine se eu tivesse um teclado</q>
 
 Welcome to my personal site
 
-Here I intend to share projects,ideas or thoughts that I'm working on recently.
+Here I intend to share projects, ideas or thoughts that I'm working on recently.
