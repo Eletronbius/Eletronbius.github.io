@@ -26,6 +26,6 @@ Welcome to my personal site
 
 Here I intend to share projects, ideas, and thoughts that I've been working on recently.
 
-If you're a recruiter or someone who might be interested in my portfolio I would recommend checking ouyk my [Projects](@/Projects/_index.md).
+If you're a recruiter or someone who might be interested in my portfolio I would recommend checking out my [Projects](@/Projects/_index.md).
 
-If you're interested on my background and want to get to know more about me I recommend checking my [About](@/About/_index.md) page.
+If you're interested in my background and want to get to know more about me I recommend checking my [About](@/About/_index.md) page.
