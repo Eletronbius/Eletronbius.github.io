@@ -15,6 +15,7 @@ index_format = "fuse_json"
 [extra]
 # Put all your custom variables here
 emoji_favicon = "🧙‍♂️"
+default_theme = "light"
 accent_color = "#ff7800"
 accent_color_dark = "#ffa348"
 
