@@ -50,7 +50,7 @@ While my colleagues worked on stylization and gathering the information from the
 The solution was based on the [hashchange](https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event) event of the browser which works better than detecting [urlChange](https://developer.mozilla.org/en-US/docs/Web/API/Navigation/navigate_event). So the navigation was based off hashchange, when the user clicks to navigate to other page the browser would only change its hash then it would get detected by the framework and it would change its content.
 
 <figure>
-{{ image(url="example.PNG", alt="visual representation") }}
+{{ image(url="example.png", alt="visual representation") }}
   <figcaption>A visual representation of how it would look like</figcaption>
 </figure>
 
