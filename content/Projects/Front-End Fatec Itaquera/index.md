@@ -13,6 +13,7 @@ This project was proposed with the idea of modernizing the institution's website
 
 Those are some, but not all, of the problems the website was suffering from. Then, the idea came about to start a project in the institution where students would develop a new and modern website.
 
+
 # Task
 
 We were given the **task** to modernize the website. But ***how?***
@@ -20,6 +21,8 @@ We were given the **task** to modernize the website. But ***how?***
 ### Tech Stack
 
 You may wonder what technology this project used. Our biggest constraint was that we had to develop everything from scratch without using any libraries or frameworks. One reason for this constraint was the idea that future students could help add features and perform maintenance, <span class="spoiler">which was a good idea but didn't happen</span>. So the technology used was pure HTML, CSS, and JavaScript.
+
+For storage, at first we wouldn't use any type of database because it would be developed in a future project specifically for back-end development, which you can read more about [here](@/Projects/Back-End%20Fatec%20Itaquera/index.md). So, keep that in mind as you read this.
 
 # Action
 
@@ -42,6 +45,24 @@ Some of the main pros of this approach are that we could have an application tha
 
 ## My role at the project 
 
+While my colleagues worked on stylization and gathering the information from the old website, my role at the project was to develop the core functions of the framework while assuring that it was performant and could run smoothly.
+
+The solution was based on the [hashchange](https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event) event of the browser which works better than detecting [urlChange](https://developer.mozilla.org/en-US/docs/Web/API/Navigation/navigate_event). So the navigation was based off hashchange, when the user clicks to navigate to other page the browser would only change its hash then it would get detected by the framework and it would change its content.
+
+<figure>
+{{ image(url="example.PNG", alt="visual representation") }}
+  <figcaption>A visual representation of how it would look like</figcaption>
+</figure>
+
+To get things clearer only the content(green area) is the are where content will be replaced the orange areas are fixed they wouldn't change as the User navigates through the website. 
+
+As now you might understand the solution and I'd hope I got my point across and you understood it, but now **how and where I would store this information?** Simple! Using <abbr title="JavaScript Object Notation">JSON</abbr>!
+
+### Managing storage and dealing with dynamic change
+
+The content of the pages was stored in JSON files, each JSON representing a single page. Once the hashchange is detected, the framework would grab the JSON and pass it to the Page Object, where it would contain all the information from the JSON and would also construct and return the HTML content of the page to replace the older one and show it to the user. Think of it as a kind of a [Factory Pattern](https://refactoring.guru/design-patterns/factory-method). After the Page object initializes, the object would keep the HTML content cached under the object's hood for more performant navigation if the user decides to return to that page, and the JSON would be cached in local storage.
+
+Using that strategy, the main concern of this approach would be, as previously stated, that the first time loading all of the JSON files would take longer
 
 # Result
 
