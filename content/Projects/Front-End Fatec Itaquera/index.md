@@ -66,4 +66,47 @@ Using that strategy, the main concern of this approach would be, as previously s
 
 # Result
 
+TL;DR
 
+If you're a nerd about <abbr title="Core Web Vitals">CWV</abbr> we've improved all of those metrics some by a great amount, which you can look below at the images. 
+More statistics for nerds:
+- `Loading time` became 31% even on the first load of the website before content was cached
+- `Navigation between pages` with the use of the techniques mentioned above the navigation was on average and on most cases less than 100ms
+- `Speed Index` increased by 47% which improves User Experience leading to better Bounce Rates on Users
+- <span class="spoiler solid">due to bad documentation on perfomance tests thats the information I had documented but I've tested exhaustively perfomance</span>
+
+Well due to all constraints and challenges the project was a success and was successful implemented as the new version of the website(<span class="spoiler solid">unfortunately due to lack of maintaners to the project the website was again replaced by a simple template </span>). We've achieved way better results than expected, here are some of them: 
+
+### Core Web Vitals
+
+<abbr title="Core Web Vitals">CWV</abbr> were one of the metrics used for measuring performance:
+
+### Before
+<figure>
+{{ image(url="CWVold.png", alt="old website", no_hover=true) }}
+  <figcaption>CWV of the old website</figcaption>
+</figure>
+
+### After
+<figure>
+{{ image(url="CWVnew.png", alt="old website", no_hover=true) }}
+  <figcaption>CWV of the new website</figcaption>
+</figure>
+
+I will not walk through each one of those in this article because I don't think that at this point you're someone who neve heard about those metrics, but If you're not familiar with <abbr title="Core Web Vitals">CWV</abbr> don't worry, here are the links you need if you're interested on what those metrics mean:
+
+- [First Contentful Paint(FCP)](https://web.dev/articles/fcp)
+
+- [Total Blocking Time(TBT)](https://web.dev/articles/tbt)
+
+- [Speed Index(SI)](https://developer.chrome.com/docs/lighthouse/performance/speed-index)
+
+- [Largest Contentful Paint (LCP)](https://web.dev/articles/lcp)
+
+- [Cumulative Layout Shift(CLS)](https://web.dev/articles/cls)
+
+### Overrall
+
+Due to bad documentation many of the test results we're not documented properly and ended up being lost at the moment I'm writing this article but the results documented were basically about navigation time and loading time I mention those on the TL;DR paragraph.
+
+If you have any questions about this project or any feedback to give about this article feel free to talk to me on [LinkedIn](https://www.linkedin.com/in/davialp/).
