@@ -9,6 +9,13 @@ compile_sass = true
 build_search_index = true
 
 taxonomies = [{ name = "tags", feed = true }]
+
+[languages.pt]
+title = "Davi Almeida"
+generate_feeds = true
+
+taxonomies = [{ name = "tags", feed = true }]
+
 [search]
 index_format = "fuse_json"
 
