@@ -7,6 +7,8 @@ date = 2026-06-29
 tags = ["Front-End", "SPA", "JavaScript", "Performance", "Estágio", "SDLC"]
 +++
 
+[Github](https://github.com/marcelo-almeida-de-araujo/dgm-sa-site-fatec-itaquera) do projeto
+
 # Situação
 
 Este projeto foi proposto com a ideia de modernizar o site da instituição. O site antigo estava desatualizado, e novas informações eram jogadas nele sem qualquer organização ou arquitetura de informação. Isso fez com que algumas informações fossem difíceis de encontrar, ficassem perdidas ou fossem colocadas em seções em que não deveriam estar. Além disso, algumas páginas do site estavam quebradas e exibindo o conteúdo de páginas completamente diferentes, vários componentes não estavam funcionando como deveriam, e a barra de navegação estava quebrada.

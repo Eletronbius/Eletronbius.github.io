@@ -7,6 +7,8 @@ date = 2026-06-29
 tags = ["Front-End", "SPA", "JavaScript", "Performance", "Internship","SDLC"]
 +++
 
+Project's [Github](https://github.com/marcelo-almeida-de-araujo/dgm-sa-site-fatec-itaquera)
+
 # Situation
 
 This project was proposed with the idea of modernizing the institution's website. The old website was outdated, and new information was thrown into it without any organization or information architecture. This led to some pieces of information being hard to find, lost, or placed in sections where they shouldn't be. Furthermore, some pages of the website were broken and showing the contents of entirely different pages, several components weren't working as they should, and the navigation bar was broken.
